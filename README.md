@@ -30,6 +30,9 @@ using 日期::DATE;
 select 洲名,國家,日期,總確診數,總死亡數,新增死亡數
 from world;
 
+| 總確診數 |
+| --- |
+| 700 |
 
 select max(總確診數) as 總確診數
 from world
