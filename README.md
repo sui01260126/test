@@ -34,4 +34,7 @@ from world;
 select max(總確診數) as 總確診數
 from world
 where 國家='台灣'and 日期 between'2020-01-01'and'2020-12-31';
+
+
+
 ```
